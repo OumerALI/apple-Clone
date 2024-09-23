@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  color: #000;
+}
+
+/* Header Style */
+.header-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 200;
+  font-size: 0.75em;
+}
+.logo-link {
+  width: 18px;
+  display: block;
+}
+.search-link,
+.cart-link {
+  width: 55px;
+  display: block;
+  padding: 0 20px !important;
+}
+.navbar {
+  padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 44px;
+  line-height: 44px;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/icons/humberger.png");
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+.upper-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+.upper-text-container a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footer-wrapper ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footer-links-wrapper a {
+  color: #515154;
+  text-decoration: none;
+}
+.footer-links-wrapper a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.my-apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.copyright-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-links-terms ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0px;
+}
+.footer-links-terms ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-links-terms ul li a:hover {
+  text-decoration: underline;
+}
+.footer-country {
+  display: inline-block;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Main Highlight */
+.main-highlight-wrapper {
+  background: #fafafa;
+  margin-top: 44px;
+  padding: 20px 0;
+}
+.links-wrapper ul {
+  list-style: none;
+}
+.model {
+  font-size: 0.85em;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-description {
+  font-size: 2em;
+}
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* Second Highlight Section */
+.second-hightlight-wrapper {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+}
+.title-wraper {
+  font-weight: 600;
+  font-size: 56px;
+}
+.description-wrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.price-wrapper {
+  color: #86868b;
+  font-size: 0.85em;
+}
+/* Third Highlight Section */
+.third-highlight-wrapper {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
+/*Fourth Highlight Section */
+.fourth-heghlight-wrapper {
+  background: #fff;
+}
+.col-lg-6.left-side-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.left-side-inner-wrapper {
+  margin: 1% 0.5% 0% 1%;
+}
+.fourth-heghlight-wrapper .left-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("../images/home/watch-series-5.jpg");
+  padding-top: 54px;
+}
+.right-side-inner-wrapper {
+  margin: 1% 1% 0% 0.5%;
+}
+.col-lg-6.right-side-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.fourth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/apple-card.jpg");
+}
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+/*Fivth Highlight Section */
+.fifth-heghlight-wrapper {
+  background: #fff;
+}
+
+.fifth-heghlight-wrapper .left-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("../images/home/apple-tv-background.jpg");
+  padding-top: 54px;
+}
+.fifth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+.tvshow-logo-wraper {
+  padding: 180px 0 150px;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+
+/*Sixth Highlight Section */
+.sixth-heghlight-wrapper {
+  background: #fff;
+}
+.product-title-small {
+  font-weight: 700;
+  font-size: 45px;
+}
+.sixth-heghlight-wrapper .left-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("../images/home/macbook-pro.jpg");
+  padding-top: 54px;
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+}
+.sixth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/new-ipad.jpg");
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+
+/* Footer responsive */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+
+  .footer-links-wrapper h3.expanded:after {
+    font-family: "FontAwesome";
+    content: "\f107";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+
+/* Search Box */
+.searchbox {
+  z-index: 100;
+  background: #000;
+  padding: 100px;
+  text-align: center;
+  display: none;
+}
+
+.searchbox ul {
+  background: #fff;
+}
+/****** /////////////////////////////////////////////////////////////// ***********/
+/* ● Each of the five columns collapse to a single column. Make these columns collapse to a single column.
+● All the sub-links under each <h3> are hidden. Hide these sub-links
+● There is also a newly added "+" sign on the right side of each <h3> to trigger the
+expansion of the sub-links upon onclick event. Add the added "+" sign on the right
+side of each <h3>. (Hint: everything up to this point can be achieved without using
+any JavaScript at all. Bootstrap and CSS would be enough to achieve these) */
+/* GENERAL STYLE  */
+.footer-wrapper {
+  background-color: #f8f9fa; /* light gray on the element */
+  padding: 20px 0; /* padding on the top and bottom of the footer */
+}
+
+/* .footer-column {
+  padding: 10px;/* at every side of the columns */
+
+/* Styles for the headings within footer columns */
+.footer-heading {
+  font-weight: bold;
+  margin-bottom: 10px; /* space between the bottom of the heading and the next element, */
+}
+
+/* Flex container styling for large screens */
+/* .footer-links-wrapper acts as a container that wraps all five footer columns together. */
+.footer-links-wrapper {
+  display: flex; /* Ensures columns are displayed horizontally */
+  flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+  justify-content: space-between; /* Distributes space between columns */
+}
+
+.footer-column {
+  flex: 1; /* Each column will take up an equal amount of space */
+  min-width: 150px; /* Minimum width to ensure proper spacing */
+  margin: 0 10px; /* Adds horizontal spacing between columns */
+  padding: 10px; /* at every side of the columns */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .footer-links-wrapper {
+    display: block; /* from being flex(Horizontally) to Stacks columns vertically on mobile screens */
+  }
+
+  .footer-column {
+    margin-bottom: 20px; /* Adds spacing between stacked columns */
+  }
+
+  .footer-links-wrapper ul {
+    display: none; /* Hides lists under each h3 */
+  }
+
+  .footer-links-wrapper h3 {
+    padding: 10px 0; /* to the top and bottom of each <h3> */
+    border-bottom: 1px solid #ccc; /* creating a visual separation between the headings and the content below them (the sub-links) */
+    cursor: pointer; /* Indicates that the heading is clickable */
+  }
+  /* Adding the "+" Icon Next to <h3> */
+  .footer-links-wrapper h3:after/* is just a css pseudo-element */ {
+    content: "\f067"; /* "\f067" is a Unicode character for the FontAwesome plus icon   */
+    font-family: "FontAwesome"; /* Ensures the icon is rendered */
+    margin-left: 10px; /* Adds spacing between the heading and the icon */
+  }
+
+  .footer-links-wrapper h3.expanded:after {
+    /*  the expanded class changes the content of the after pseudo-element(from + to -) */
+    content: "\f107"; /* FontAwesome minus icon */
+  }
+
+  .footer-links-wrapper h3 + ul {
+    /* h3+ ul will selects the direct sibling immediately after an <h3> i.e ul. */
+    display: block; /*  Shows the list when the heading is clicked b/s bydefualt it was hidden or display: none */
+    padding: 10px 0; /* adds vertical spacing  to the list, */
+  }
+}
+/**********************************************************************************/
+/* Hide the sub-links by default on mobile */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none; /* Hides all lists by default */
+    padding: 0; /* Remove padding from hidden lists */
+  }
+
+  /* Show list when the heading is expanded */
+  /* when the user intracting (clicking on h3 ) the expanded class need to be apply to let the lists visivle again  */
+  .footer-links-wrapper h3.expanded + ul {
+    display: block; /* Show the list under the expanded heading */
+  }
+}
+/**********************************************************************************/
+/* Initial state for mobile: hide all lists */
+@media (max-width: 768px) {
+  .footer-links {
+    display: none; /* Hide all lists by default */
+    padding: 0; /* Remove any defualt padding from hidden lists */
+  }
+
+  /* Show list when its parent .footer-column has focus */
+  .footer-column:focus-within .footer-links {
+    /* When any child element inside .footer-column receives focus (e.g., when you click inside the column), the hidden .footer-links (the sub-links) within that column will become visible (display: block). */
+    display: block; /* Show the list when the column is focused */
+  }
+
+  /* Add cursor pointer for better UX */
+  .footer-heading {
+    cursor: pointer; /* Indicate that heading is clickable */
+  }
+}
+/************************************************************************************/
+/*CSS for Icon Change*/
+.footer-links-wrapper h3:after {
+  font-family: "FontAwesome";
+  content: "\f067"; /* Plus icon */
+  margin-left: 10px;
+}
+
+.footer-links-wrapper h3.expanded:after {
+  content: "\f00d"; /* X icon */
+}

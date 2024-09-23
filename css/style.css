@@ -10,7 +10,7 @@ max-width: 100%;
 .top-50 {
 margin-top: 50px;
 }
-.mac-pro,
+
 .iphone-pro,
 .iphone-11{
 background-position: center;
@@ -20,7 +20,7 @@ background-color: #fafafa;
 }
 
 .mac-pro{
-background-position: bottom;
+background-position:bottom;
 }
 
 .iphone-pro {

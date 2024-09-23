@@ -1,0 +1,41 @@
+body {
+font-family: "Montserrat", sans-serif;
+}
+a {
+color: #06c;
+}
+img {
+max-width: 100%;
+}
+.top-50 {
+margin-top: 50px;
+}
+.mac-pro,
+.iphone-pro,
+.iphone-11{
+background-position: center;
+background-repeat: no-repeat;
+height: 580px;
+background-color: #fafafa;
+}
+
+.mac-pro{
+background-position: bottom;
+}
+
+.iphone-pro {
+background-image: url(../images/home/iphone11-pro-bg.jpg);
+}
+.iphone-11 {
+background-image: url(../images/home/iphone11-bg.jpg);
+}
+.learn-more a {
+font-size: 1.5vw;
+}
+.learn-more a::after{
+font-family: fontawesome;
+content: "\f105";
+font-weight: 900;
+padding: 15px 15px;
+opacity: 1;
+}

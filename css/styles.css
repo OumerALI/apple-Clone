@@ -66,7 +66,7 @@
 .learn-more a {
   font-size: 1.5vw;
 }
-.learn-more a::after{
+.learn-more a::after {
   font-family: fontawesome;
   content: "\f105";
   font-weight: 900;
@@ -75,3 +75,40 @@
 }
 
 /* end main section style  */
+
+.product-name {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.description {
+  font-size: 1.3em;
+  padding-bottom: 15px 0;
+}
+.learn-more {
+  list-style: none;
+}
+.learn-more {
+  padding: 15px 0;
+}
+
+.learn-more ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.learn-more ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.learn-more ul li a:hover {
+  color: #000; /* Sets the text color to black (#000) on hover */
+}
+
+/* .links ul li a:after {
+  font-weight: 600;
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 10px;
+} */
+
+/*  end  MacBook Pro and iPad  section*/
